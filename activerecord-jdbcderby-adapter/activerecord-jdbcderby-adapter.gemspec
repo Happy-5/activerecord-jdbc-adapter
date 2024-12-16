@@ -19,5 +19,4 @@ Gem::Specification.new do |gem|
   gem.files = `git ls-files`.split("\n") # assuming . working directory
 
   gem.add_dependency 'activerecord-jdbc-adapter', "#{version}"
-  gem.add_dependency 'jdbc-derby', '~> 10.6'
 end
